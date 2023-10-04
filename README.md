@@ -1,6 +1,6 @@
 # Portfolio project 1
 
-> The project contains some information .
+> The project contains some information about the owner of the page.
 
 ![screenshot](./app_screenshot.png)
 
@@ -21,7 +21,7 @@ The project is one of the project that tells about the doer .
 - Clone the project
 
 ```bash
-git clone https://github.com/abdulsomod1/portfolio-project-1/tree/add-portfolio-project1
+git clone git@github.com:abdulsomod1/portfolio-project-1.git
 ```
 
 - Install Dependencies
