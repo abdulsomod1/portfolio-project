@@ -11,31 +11,10 @@
   margin-top: 3%;
   font-size: 9px;
   margin-left: 5%;
-  margin-right: 1%;
+  margin-right: -2%;
   color: #fff;
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: roboto;
-}
-
-.nav-text {
-  display: flex;
-  color: white;
-  background-color: #3e3c3c;
-  padding-bottom: 2%;
-}
-
-.nav-information {
-  list-style: none;
-  display: grid;
-  margin-top: 2%;
-}
-
-.edit-me {
-  margin-left: 15%;
-}
-
-.fa-envelope {
-  margin-left: 15%;
 }
 
 .edit-icon {
@@ -53,19 +32,11 @@
   margin-top: 3%;
 }
 
-.edit-text {
-  color: white;
-}
-
 .about-me {
   color: white;
   margin-right: 9%;
   margin-left: 5%;
   margin-top: 42%;
-}
-
-.togerther {
-  display: flex;
 }
 
 .color {
@@ -79,7 +50,7 @@
 .font1 {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-weight: 400;
-  font-size: 191%;
+  font-size: 169%;
 }
 
 .font2 {
@@ -94,42 +65,15 @@
   font-size: 80%;
 }
 
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
 .click {
   font-size: 23px;
   cursor: pointer;
   margin-left: 47%;
+  color: #fff;
+}
+
+.first-color {
+  display: flex;
+  background-color: #3e3c3c;
+  padding-bottom: 3%;
 }

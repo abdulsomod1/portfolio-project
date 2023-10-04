@@ -1,6 +1,6 @@
 # Portfolio project 1
 
-> The project contains some information about the owner of the page.
+> The project contains some information about the owner of the.
 
 ![screenshot](./app_screenshot.png)
 
