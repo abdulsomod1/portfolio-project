@@ -50,7 +50,7 @@
 .font1 {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-weight: bold;
-  font-size: 146%;
+  font-size: 143%;
 }
 
 .font2 {
@@ -66,11 +66,11 @@
 }
 
 .click {
-  font-size: 23px;
+  font-size: 21px;
   cursor: pointer;
-  margin-left: 42%;
+  margin-left: 37%;
   color: #fff;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 .first-color {
