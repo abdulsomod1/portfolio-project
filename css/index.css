@@ -1,3 +1,4 @@
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +10,11 @@
 
 .owner {
   margin-top: 6%;
-  font-size: 9px;
-  margin-left: 3%;
+  font-size: 12px;
+  margin-left: 7%;
   margin-right: -2%;
   color: #fff;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: roboto;
+  font-family: Roboto;
 }
 
 .edit-icon {
@@ -28,7 +28,7 @@
 }
 
 .edit-image {
-  margin: 9% 0% 0% 55%;
+  margin: -6% 0% 0% 55%;
 }
 
 .about-me {
@@ -47,27 +47,26 @@
 }
 
 .font1 {
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-weight: bold;
-  font-size: 125%;
+  font-size: 235%;
+  /* stylelint-disable-next-line font-family-name-quotes */
+  font-family: Crete Round;
+  font-weight: 100;
 }
 
 .font2 {
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: Roboto;
-  font-size: 109%;
+  font-size: 133%;
 }
 
 .font3 {
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: Poppins;
   font-size: 94%;
 }
 
 .click {
-  font-size: 21px;
+  font-size: 16px;
   cursor: pointer;
-  margin-left: 39%;
+  margin-left: 66%;
   color: #fff;
   margin-top: 3%;
 }
