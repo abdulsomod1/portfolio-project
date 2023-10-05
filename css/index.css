@@ -50,7 +50,7 @@
 .font1 {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-weight: bold;
-  font-size: 130%;
+  font-size: 125%;
 }
 
 .font2 {
@@ -68,7 +68,7 @@
 .click {
   font-size: 21px;
   cursor: pointer;
-  margin-left: 37%;
+  margin-left: 39%;
   color: #fff;
   margin-top: 3%;
 }
