@@ -8,7 +8,7 @@
 }
 
 .owner {
-  margin-top: 4%;
+  margin-top: 5%;
   font-size: 9px;
   margin-left: 3%;
   margin-right: -2%;
@@ -49,8 +49,8 @@
 
 .font1 {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-weight: 400;
-  font-size: 169%;
+  font-weight: bold;
+  font-size: 148%;
 }
 
 .font2 {
@@ -62,7 +62,7 @@
 .font3 {
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: Poppins;
-  font-size: 80%;
+  font-size: 94%;
 }
 
 .click {
