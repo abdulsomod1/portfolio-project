@@ -1,6 +1,6 @@
 # Portfolio project 1
 
-> The project contains some information about the owner of the.
+> The project was buil with html and css and the project shows some informations.
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,7 +10,7 @@ The project is one of the project that tells about the doer .
 
 - HTML,
 - CSS,
-- Javascript
+- Others
 
 ## Live Demo
 
