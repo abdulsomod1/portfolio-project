@@ -27,7 +27,7 @@
 
 .spce-icon {
   padding-right: 5%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .edit-image {
@@ -61,7 +61,7 @@
 
 .font2 {
   font-family: Roboto;
-  font-size: 165%;
+  font-size: 152%;
 }
 
 .font3 {
@@ -81,4 +81,9 @@
   background-color: #3e3c3c;
   justify-content: space-between;
   padding: 0% 10% 3%;
+}
+
+.edit-link {
+  text-decoration: none;
+  color: #fff;
 }
