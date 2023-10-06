@@ -1,6 +1,6 @@
 # Portfolio project 1
 
-> The project was buil with html and css and the project shows some informations.
+> set up a new repository and prepare it for development using best practices (e.g. linters).
 
 ![screenshot](./app_screenshot.png)
 
