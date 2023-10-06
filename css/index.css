@@ -6,24 +6,28 @@
 
 .body {
   background-color: #1c1a19;
+  background-image: url('image.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .owner {
-  margin-top: 4%;
-  font-size: 12px;
+  margin-top: 7%;
+  font-size: 15px;
   margin-right: -2%;
   color: #fff;
   font-family: Roboto;
 }
 
 .edit-icon {
-  color: white;
-  margin-left: 5%;
-  margin-top: 3%;
+  list-style: none;
+  display: flex;
+  margin-right: 10%;
 }
 
 .spce-icon {
-  padding-right: 3%;
+  padding-right: 5%;
+  font-size: 20px;
 }
 
 .edit-image {
@@ -32,9 +36,12 @@
 
 .about-me {
   color: white;
-  margin-right: 9%;
-  margin-left: 5%;
-  margin-top: 30%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .color {
@@ -54,16 +61,16 @@
 
 .font2 {
   font-family: Roboto;
-  font-size: 133%;
+  font-size: 165%;
 }
 
 .font3 {
   font-family: Poppins;
-  font-size: 94%;
+  font-size: 113%;
 }
 
 .click {
-  font-size: 16px;
+  font-size: 25px;
   cursor: pointer;
   color: #fff;
   margin-top: 3%;
