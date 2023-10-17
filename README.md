@@ -1,4 +1,4 @@
-# Portfolio project 
+# Portfolio project
 
 > Portfolio project built with semantic HTML and some css styles like display flex etc .
 
@@ -9,7 +9,7 @@
 - HTML5 form elements
   - `Section`, `nav`, `ul`.
 - CSS properties
-  - `background-color`, `display`, `justify-content`.
+  - `background-color`, `display`, `justify-content`, `flex-direction`.
 - Linters
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
