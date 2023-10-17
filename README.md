@@ -1,7 +1,6 @@
 # Portfolio project
 
-> set up a new repository and prepare it for development using best practices (e.g. linters).
-> build the first 2 sections of the mobile website using the template you chose in the previous step .
+> Portfolio website is one of the most powerful tools in software developer toolbox; it’s the easiest way of showing what truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what someone can bring to their teams .
 
 ![screenshot](./app_screenshot.png)
 

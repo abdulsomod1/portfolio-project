@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:ital,wght@0,100;0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
-  --font-family1: 'Crete Round', serif;
-  --font-family2: 'Poppins', sans-serif;
-  --font-family3: 'Roboto', sans-serif;
+  --primary-font-family: 'Crete Round', serif;
+  --secondary-font-family: 'Poppins', sans-serif;
+  --tertiary-font-family: 'Roboto', sans-serif;
   --black: #1c1a19;
   --white: #fff;
   --orange: #ff6b00;
@@ -14,7 +14,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: var(--font-family2);
+  font-family: var(--secondary-font-family);
 }
 
 .style-body {
@@ -29,7 +29,7 @@
   font-size: 15px;
   margin-right: -2%;
   color: var(--white);
-  font-family: var(--font-family3);
+  font-family: var(--tertiary-font-family);
 }
 
 .social-media-icon {
@@ -67,12 +67,12 @@
 
 .font1 {
   font-size: 235%;
-  font-family: var(--font-family1);
+  font-family: var(--primary-font-family);
   font-weight: 100;
 }
 
 .font2 {
-  font-family: var(--font-family3);
+  font-family: var(--tertiary-font-family);
   font-size: 152%;
 }
 
