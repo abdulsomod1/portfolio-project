@@ -1,27 +1,37 @@
-# Portfolio project 1
+# Portfolio project 
 
-> set up a new repository and prepare it for development using best practices (e.g. linters).
+> Portfolio project built with semantic HTML and some css styles like display flex etc .
 
 ![screenshot](./app_screenshot.png)
 
-The project is one of the project that tells about the doer .
+## Built With
+
+- HTML5 form elements
+  - `Section`, `nav`, `ul`.
+- CSS properties
+  - `background-color`, `display`, `justify-content`.
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
 
 ## Built With
 
-- HTML,
-- CSS,
-- Others
+- HTML semantic elements : input , div , img and ul etc .
+- CSS elements : display flex , display grid , grid-template etc .
+- Reamdme
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://https://tenifayo-portfolio-project.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone git@github.com:abdulsomod1/portfolio-project-1.git
+git clone git@github.com:abdulsomod1/portfolio-project.git.
+
 ```
 
 - Install Dependencies
@@ -54,10 +64,16 @@ and to have it fix (to the best of its ability) any format issues, run:
 yarn format
 ```
 
-You can also check against Webhint:
+You can also check against HTML Validator (htmlhint):
 
 ```bash
-yarn hint
+yarn lint:html
+```
+
+To generate an accessibility report for this webpage, run the below command, it uses axe:
+
+```bash
+yarn axe
 ```
 
 ## Style Guides
@@ -66,6 +82,7 @@ yarn hint
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
 - [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
+- [AXE Accessibility Style Guide](https://dequeuniversity.com/rules/axe/html/4.7)
 
 ## 👤 Author
 

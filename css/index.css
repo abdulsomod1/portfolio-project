@@ -1,4 +1,7 @@
-/* stylelint-disable font-family-no-missing-generic-family-keyword */
+/* stylelint-disable font-family-name-quotes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:ital,wght@0,100;0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +19,7 @@
   font-size: 15px;
   margin-right: -2%;
   color: #fff;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: Roboto;
 }
 
@@ -54,17 +58,19 @@
 
 .font1 {
   font-size: 235%;
-  /* stylelint-disable-next-line font-family-name-quotes */
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: Crete Round;
   font-weight: 100;
 }
 
 .font2 {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: Roboto;
   font-size: 152%;
 }
 
 .font3 {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: Poppins;
   font-size: 113%;
 }
