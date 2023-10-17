@@ -1,6 +1,7 @@
 # Portfolio project
 
-> Portfolio project built with semantic HTML and some css styles like display flex etc .
+> set up a new repository and prepare it for development using best practices (e.g. linters).
+> build the first 2 sections of the mobile website using the template you chose in the previous step .
 
 ![screenshot](./app_screenshot.png)
 
@@ -43,13 +44,25 @@ yarn install
 To run StyleLint by itself, you may run the lint task:
 
 ```bash
-yarn lint:check
+yarn stylelint:check
 ```
 
-Or to automatically fix issues found (where possible):
+Or to automatically fix issues found for StyleLint (where possible):
 
 ```bash
-yarn lint
+yarn stylelint
+```
+
+To run ESLint by itself, you may run the lint task:
+
+```bash
+yarn eslint:check
+```
+
+Or to automatically fix issues found for ESLint (where possible):
+
+```bash
+yarn eslint
 ```
 
 You can also check against Prettier:
