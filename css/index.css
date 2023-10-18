@@ -38,7 +38,7 @@
   margin-right: 10%;
 }
 
-.spce-between-icon {
+.left-margin-for-icon {
   padding-right: 5%;
   font-size: 18px;
 }
@@ -65,18 +65,18 @@
   margin-bottom: 3%;
 }
 
-.font1 {
+.primary-font {
   font-size: 235%;
   font-family: var(--primary-font-family);
   font-weight: 100;
 }
 
-.font2 {
+.secondary-font {
   font-family: var(--tertiary-font-family);
   font-size: 152%;
 }
 
-.font3 {
+.tetiary-font {
   font-size: 113%;
 }
 
