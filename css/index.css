@@ -1,11 +1,108 @@
-/* Example of @import use
-This imports the `reset.css` file */
-@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:ital,wght@0,100;0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-/* For testing purposes, delete this code */
-body {
-  font-size: max(20vw, 400px);
-  width: min(20vw, 400px);
-  margin: 20px;
+:root {
+  --primary-font-family: 'Poppins', sans-serif;
+  --secondary-font-family: 'Crete Round', serif;
+  --tertiary-font-family: 'Roboto', sans-serif;
+  --black: #1c1a19;
+  --white: #fff;
+  --orange: #ff6b00;
+  --light-black: #3e3c3c;
+  --social-icon-color: #cfcfcf;
+}
+
+* {
+  margin: 0;
   padding: 0;
+  font-family: var(--primary-font-family);
+}
+
+.body-style {
+  background-color: var(--black);
+  background-image: url('../image/image.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.logo {
+  font-size: 15px;
+  margin-right: -2%;
+  color: var(--white);
+  font-family: var(--tertiary-font-family);
+}
+
+.social-media-icon {
+  list-style: none;
+  display: flex;
+  margin-right: 10%;
+}
+
+.left-margin-for-icon {
+  padding-right: 5%;
+  font-size: 18px;
+}
+
+.edit-image {
+  margin: -6% 0% 0% 55%;
+}
+
+.about-me {
+  color: var(--white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.color {
+  color: var(--orange);
+}
+
+.edit-position {
+  margin-bottom: 3%;
+}
+
+.primary-font {
+  font-size: 235%;
+  font-family: var(--secondary-font-family);
+  font-weight: 100;
+}
+
+.secondary-font {
+  font-family: var(--tertiary-font-family);
+  font-size: 152%;
+}
+
+.tetiary-font {
+  font-size: 113%;
+}
+
+.handburger {
+  font-size: 30px;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.first-color {
+  display: flex;
+  background-color: var(--light-black);
+  justify-content: space-between;
+  padding: 2% 10% 3%;
+  align-items: center;
+}
+
+.edit-link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+ul li a svg path {
+  fill: #cfcfcf;
+}
+
+ul li a svg path:hover {
+  fill: #fff;
 }
