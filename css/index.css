@@ -2,19 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:ital,wght@0,100;0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
-  --primary-font-family: 'Crete Round', serif;
-  --secondary-font-family: 'Poppins', sans-serif;
+  --primary-font-family: 'Poppins', sans-serif;
+  --secondary-font-family: 'Crete Round', serif;
   --tertiary-font-family: 'Roboto', sans-serif;
   --black: #1c1a19;
   --white: #fff;
   --orange: #ff6b00;
   --light-black: #3e3c3c;
+  --social-icon-color: #cfcfcf;
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: var(--secondary-font-family);
+  font-family: var(--primary-font-family);
 }
 
 .style-body {
@@ -24,8 +25,7 @@
   background-position: bottom right;
 }
 
-.owner {
-  margin-top: 7%;
+.logo {
   font-size: 15px;
   margin-right: -2%;
   color: var(--white);
@@ -67,7 +67,7 @@
 
 .primary-font {
   font-size: 235%;
-  font-family: var(--primary-font-family);
+  font-family: var(--secondary-font-family);
   font-weight: 100;
 }
 
@@ -80,21 +80,29 @@
   font-size: 113%;
 }
 
-.click {
-  font-size: 25px;
+.handburger {
+  font-size: 30px;
   cursor: pointer;
   color: var(--white);
-  margin-top: 3%;
 }
 
 .first-color {
   display: flex;
   background-color: var(--light-black);
   justify-content: space-between;
-  padding: 0% 10% 3%;
+  padding: 2% 10% 3%;
+  align-items: center;
 }
 
 .edit-link {
   text-decoration: none;
   color: var(--white);
+}
+
+ul li a svg path {
+  fill: #cfcfcf;
+}
+
+ul li a svg path:hover {
+  fill: #fff;
 }
