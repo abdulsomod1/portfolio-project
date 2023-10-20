@@ -159,6 +159,19 @@ ul li a svg path:hover {
   margin-left: 8%;
 }
 
+.knowledge-btn {
+  border: none;
+  color: var(--white);
+  font-size: 15px;
+  padding: 4%;
+  background-color: rgb(255 255 255 / 28%);
+  font-family: Inter, sans-serif;
+}
+
+.knowledge-list {
+  padding: 3% 7%;
+}
+
 .btn {
   background-color: var(--orange);
   width: 36%;
@@ -172,19 +185,21 @@ ul li a svg path:hover {
 
 .professional-background {
   color: var(--white);
-  background-image: url('../image/profession-placeholder.png');
+  background: linear-gradient(179deg, rgb(6 6 6 / 40.4%) 0.85%, rgb(19 19 19 / 92.9%) 84%),
+    url('../image/profession-placeholder.png');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 4% 5%;
   background-position: top;
+  position: relative;
 }
 
-.professional-topic {
-  font-family: var(--secondary-font-family);
-  margin: 8%;
-  font-weight: 200;
-  font-size: 43px;
-  padding-top: 15%;
+.professional-background:hover .professional-background-details {
+  visibility: hidden;
+}
+
+.professional-background:hover {
+  background-image: url('../image/profession-placeholder.png');
 }
 
 .professional-btn {
@@ -197,6 +212,26 @@ ul li a svg path:hover {
   font-size: 22px;
   text-align: center;
   margin-top: 5%;
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.professional-btn:hover {
+  background-color: rgba(255 140 0/ 30.5%);
+  border: solid 1px;
+  border-color: #ff6b00;
+}
+
+.professional-btn:active {
+  background-color: hsl(22deg 96% 45%);
+}
+
+.professional-background:hover .professional-btn {
+  visibility: visible;
 }
 
 .professional-about-stories {
@@ -206,15 +241,10 @@ ul li a svg path:hover {
   font-weight: 300;
 }
 
-.knowledge-btn {
-  border: none;
-  color: var(--white);
-  font-size: 15px;
-  padding: 4%;
-  background-color: rgb(255 255 255 / 28%);
-  font-family: Inter, sans-serif;
-}
-
-.knowledge-list {
-  margin-left: 6%;
+.professional-topic {
+  font-family: var(--secondary-font-family);
+  margin: 8%;
+  font-weight: 200;
+  font-size: 43px;
+  padding-top: 15%;
 }
