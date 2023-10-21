@@ -19,7 +19,7 @@
   font-family: var(--primary-font-family);
 }
 
-.body-style {
+.mobile-first-setup {
   background-color: var(--black);
   background-image: url('../image/image.png');
   background-repeat: no-repeat;
@@ -87,7 +87,7 @@
   color: var(--white);
 }
 
-.first-color {
+.primary-container {
   display: flex;
   background-color: var(--light-black);
   justify-content: space-between;
@@ -108,7 +108,7 @@ ul li a svg path:hover {
   fill: #fff;
 }
 
-.image-style {
+.image-placeholder {
   margin-left: 1%;
   padding: 6%;
   width: 88%;
@@ -121,7 +121,11 @@ ul li a svg path:hover {
   margin: 0% 16%;
 }
 
-.hero-section {
+.my-recent-work {
+  background-color: var(--white);
+}
+
+.title {
   padding-top: 30%;
   padding-bottom: 6%;
   text-align: center;
@@ -130,26 +134,26 @@ ul li a svg path:hover {
   font-weight: 200;
 }
 
-.topic {
+.title-post {
   font-family: var(--secondary-font-family);
   margin-left: 6%;
   font-weight: 200;
   font-size: 43px;
 }
 
-.about-stories {
+.supporting-text {
   margin: 3% 8% 5%;
   font-family: Inter, sans-serif;
   font-size: 22px;
   font-weight: 300;
 }
 
-.all-knowledge {
+.tags {
   display: flex;
   justify-content: left;
 }
 
-.knowledge {
+.tag {
   text-align: center;
   border: 1.8px solid var(--black);
   font-family: Inter, sans-serif;
@@ -162,7 +166,7 @@ ul li a svg path:hover {
 .knowledge-btn {
   border: none;
   color: var(--white);
-  font-size: 15px;
+  font-size: 18px;
   padding: 4%;
   background-color: rgb(255 255 255 / 28%);
   font-family: Inter, sans-serif;
