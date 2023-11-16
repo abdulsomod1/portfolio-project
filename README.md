@@ -9,7 +9,7 @@
 - HTML5 form elements
   - `Section`, `nav`, `ul`.
 - CSS properties
-  - `background-color`, `display`, `justify-content`, `flex-direction`.
+  - `background-color`, `display`, `justify-content`, `flex-direction` `Visibility`.
 - Linters
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
