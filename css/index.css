@@ -11,6 +11,8 @@
   --orange: #ff6b00;
   --light-black: #3e3c3c;
   --social-icon-color: #cfcfcf;
+  --inter: inter, sans-serif;
+  --rgb: ;
 }
 
 * {
@@ -67,9 +69,10 @@
 }
 
 .primary-font {
-  font-size: 235%;
+  font-size: 288%;
   font-family: var(--secondary-font-family);
   font-weight: 100;
+  margin-right: 34%;
 }
 
 .secondary-font {
@@ -105,7 +108,7 @@ ul li a svg path {
 }
 
 ul li a svg path:hover {
-  fill: #fff;
+  fill: var(--white);
 }
 
 .image-placeholder {
@@ -143,7 +146,7 @@ ul li a svg path:hover {
 
 .supporting-text {
   margin: 3% 8% 5%;
-  font-family: Inter, sans-serif;
+  font-family: var(--inter);
   font-size: 22px;
   font-weight: 300;
 }
@@ -156,7 +159,7 @@ ul li a svg path:hover {
 .tag {
   text-align: center;
   border: 1.8px solid var(--black);
-  font-family: Inter, sans-serif;
+  font-family: var(--inter);
   margin-right: -23px;
   padding: 2% 3%;
   font-size: 19px;
@@ -169,7 +172,7 @@ ul li a svg path:hover {
   font-size: 18px;
   padding: 4%;
   background-color: rgb(255 255 255 / 28%);
-  font-family: Inter, sans-serif;
+  font-family: var(--inter);
 }
 
 .knowledge-list {
@@ -182,12 +185,12 @@ ul li a svg path:hover {
   height: 63px;
   border: none;
   color: var(--white);
-  font-family: Inter, sans-serif;
+  font-family: var(--inter);
   font-size: 22px;
   margin: 3% 8%;
 }
 
-.professional-background {
+.pro-background {
   color: var(--white);
   background: linear-gradient(179deg, rgb(6 6 6 / 40.4%) 0.85%, rgb(19 19 19 / 92.9%) 84%),
     url('../image/profession-placeholder.png');
@@ -198,7 +201,7 @@ ul li a svg path:hover {
   position: relative;
 }
 
-.professional-background:hover .professional-background-details {
+.pro-background:hover .pro-background-details {
   visibility: hidden;
 }
 
@@ -212,7 +215,7 @@ ul li a svg path:hover {
   height: 63px;
   border: none;
   color: var(--white);
-  font-family: Inter, sans-serif;
+  font-family: var(--inter);
   font-size: 22px;
   text-align: center;
   margin-top: 5%;
@@ -240,7 +243,7 @@ ul li a svg path:hover {
 
 .professional-about-stories {
   margin: 3% 6% 5%;
-  font-family: Inter, sans-serif;
+  font-family: var(--inter);
   font-size: 23px;
   font-weight: 300;
 }
