@@ -7,7 +7,7 @@
 ## Built With
 
 - HTML5 form elements
-  - `Section`, `nav`, `ul`.
+  - `Section`, `nav`, `ul` h3.
 - CSS properties
   - `background-color`, `display`, `justify-content`, `flex-direction` `Visibility`.
 - Linters
