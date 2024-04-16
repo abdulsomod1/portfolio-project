@@ -107,7 +107,7 @@ ul li a svg path {
   fill: #cfcfcf;
 }
 
-ul li a svg path:hover {
+ul li .social-handles svg path:hover {
   fill: var(--white);
 }
 
