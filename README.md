@@ -2,14 +2,14 @@
 
 > Portfolio website is one of the most powerful tools in software developer toolbox; it’s the easiest way of showing what truly capable of as a developer, and is a quick and simple way for recruiters and hiring managers to get an idea of what someone can bring to their teams .
 
-![screenshot](./app_screenshot.png)
+![screenshot](image/app_screenshot.jpeg)
 
 ## Built With
 
 - HTML5 form elements
-  - `Section`, `nav`, `ul`.
+  - `Section`, `nav`, `ul` h3.
 - CSS properties
-  - `background-color`, `display`, `justify-content`, `flex-direction`.
+  - `background-color`, `display`, `justify-content`, `flex-direction` `Visibility`.
 - Linters
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).

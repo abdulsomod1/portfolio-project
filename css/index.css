@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:ital,wght@0,100;0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;300;500;700&family=Poppins:ital,wght@0,100;0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
   --primary-font-family: 'Poppins', sans-serif;
@@ -10,6 +11,8 @@
   --orange: #ff6b00;
   --light-black: #3e3c3c;
   --social-icon-color: #cfcfcf;
+  --inter: inter, sans-serif;
+  --rgb: ;
 }
 
 * {
@@ -18,7 +21,7 @@
   font-family: var(--primary-font-family);
 }
 
-.body-style {
+.mobile-first-setup {
   background-color: var(--black);
   background-image: url('../image/image.png');
   background-repeat: no-repeat;
@@ -66,9 +69,10 @@
 }
 
 .primary-font {
-  font-size: 235%;
+  font-size: 288%;
   font-family: var(--secondary-font-family);
   font-weight: 100;
+  margin-right: 34%;
 }
 
 .secondary-font {
@@ -86,7 +90,7 @@
   color: var(--white);
 }
 
-.first-color {
+.primary-container {
   display: flex;
   background-color: var(--light-black);
   justify-content: space-between;
@@ -103,6 +107,151 @@ ul li a svg path {
   fill: #cfcfcf;
 }
 
-ul li a svg path:hover {
-  fill: #fff;
+ul li .social-handles svg path:hover {
+  fill: var(--white);
+}
+
+.image-placeholder {
+  margin-left: 1%;
+  padding: 6%;
+  width: 88%;
+}
+
+.stroke {
+  border: 1px solid;
+  border-color: #1c1a19;
+  opacity: 0.5;
+  margin: 0% 16%;
+}
+
+.my-recent-work {
+  background-color: var(--white);
+}
+
+.title {
+  padding-top: 30%;
+  padding-bottom: 6%;
+  text-align: center;
+  font-family: var(--secondary-font-family);
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.title-post {
+  font-family: var(--secondary-font-family);
+  margin-left: 6%;
+  font-weight: 200;
+  font-size: 43px;
+}
+
+.supporting-text {
+  margin: 3% 8% 5%;
+  font-family: var(--inter);
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.tags {
+  display: flex;
+  justify-content: left;
+}
+
+.tag {
+  text-align: center;
+  border: 1.8px solid var(--black);
+  font-family: var(--inter);
+  margin-right: -23px;
+  padding: 2% 3%;
+  font-size: 19px;
+  margin-left: 8%;
+}
+
+.knowledge-btn {
+  border: none;
+  color: var(--white);
+  font-size: 18px;
+  padding: 4%;
+  background-color: rgb(255 255 255 / 28%);
+  font-family: var(--inter);
+}
+
+.knowledge-list {
+  padding: 3% 7%;
+}
+
+.btn {
+  background-color: var(--orange);
+  width: 36%;
+  height: 63px;
+  border: none;
+  color: var(--white);
+  font-family: var(--inter);
+  font-size: 22px;
+  margin: 3% 8%;
+}
+
+.pro-background {
+  color: var(--white);
+  background: linear-gradient(179deg, rgb(6 6 6 / 40.4%) 0.85%, rgb(19 19 19 / 92.9%) 84%),
+    url('../image/profession-placeholder.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 4% 5%;
+  background-position: top;
+  position: relative;
+}
+
+.pro-background:hover .pro-background-details {
+  visibility: hidden;
+}
+
+.professional-background:hover {
+  background-image: url('../image/profession-placeholder.png');
+}
+
+.professional-btn {
+  background-color: var(--orange);
+  width: 100%;
+  height: 63px;
+  border: none;
+  color: var(--white);
+  font-family: var(--inter);
+  font-size: 22px;
+  text-align: center;
+  margin-top: 5%;
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.professional-btn:hover {
+  background-color: rgba(255 140 0/ 30.5%);
+  border: solid 1px;
+  border-color: #ff6b00;
+}
+
+.professional-btn:active {
+  background-color: hsl(22deg 96% 45%);
+}
+
+.professional-background:hover .professional-btn {
+  visibility: visible;
+}
+
+.professional-about-stories {
+  margin: 3% 6% 5%;
+  font-family: var(--inter);
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.professional-topic {
+  font-family: var(--secondary-font-family);
+  margin: 8%;
+  font-weight: 200;
+  font-size: 43px;
+  padding-top: 15%;
 }
