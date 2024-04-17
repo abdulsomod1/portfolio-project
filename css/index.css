@@ -255,3 +255,26 @@ ul li .social-handles svg path:hover {
   font-size: 43px;
   padding-top: 15%;
 }
+
+.about-me-setup {
+  background-color: var(--black);
+  background-image: url('../image/image.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.about-me-text {
+  font-size: 530%;
+  font-family: var(--secondary-font-family);
+  font-weight: 100;
+}
+
+.about-me-btn {
+  background-color: var(--orange);
+  width: 49%;
+  height: 63px;
+  border: none;
+  color: var(--white);
+  font-family: var(--inter);
+  font-size: 22px;
+}
