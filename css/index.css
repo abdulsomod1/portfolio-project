@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:ital,wght@0,100;0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;300;500;700&family=Poppins:ital,wght@0,100;0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 :root {
   --primary-font-family: 'Poppins', sans-serif;
   --secondary-font-family: 'Crete Round', serif;
   --tertiary-font-family: 'Roboto', sans-serif;
+  --about-me-section-family: 'Inter', sans-serif;
   --black: #1c1a19;
   --white: #fff;
   --orange: #ff6b00;
@@ -277,4 +279,93 @@ ul li .social-handles svg path:hover {
   color: var(--white);
   font-family: var(--inter);
   font-size: 22px;
+}
+
+.ab-stroke {
+  border: 1px solid;
+  border-color: var(--white);
+  opacity: 0.5;
+  margin: 0% 16%;
+}
+
+.about-me-ls {
+  background-color: var(--black);
+}
+
+.ab-edit {
+  margin-top: 30px;
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 18px solid var(--orange);
+  border-bottom: 10px solid transparent;
+  margin-top: 1%;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 21px solid var(--orange);
+  border-bottom: 10px solid transparent;
+  margin-top: 1%;
+  margin-right: 2%;
+}
+
+.triangle-left-f {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-right: 18px solid var(--orange);
+  border-bottom: 10px solid transparent;
+  margin-top: 1%;
+}
+
+.triangle-right-f {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 21px solid var(--orange);
+  border-bottom: 10px solid transparent;
+  margin-top: 1%;
+  margin-right: 2%;
+}
+
+.shape-flex {
+  display: flex;
+  margin-top: 25%;
+  justify-content: center;
+  color: var(--white);
+}
+
+.ab.heading {
+  display: flex;
+}
+
+.ab-lang {
+  font-size: 30px;
+  font-family: var(--about-me-section-family);
+}
+
+.ab-li {
+  margin-top: 10%;
+  font-family: var(--about-me-section-family);
+}
+
+.ab-ul {
+  font-size: 23px;
+  color: var(--white);
+  list-style: none;
+  text-align: center;
+  margin-left: 8%;
+}
+
+.ab-shape-flex {
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+  color: var(--white);
 }
