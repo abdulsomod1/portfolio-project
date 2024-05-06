@@ -300,19 +300,17 @@ ul li .social-handles svg path:hover {
   width: 0;
   height: 0;
   border-top: 15px solid transparent;
-  border-right: 18px solid var(--orange);
-  border-bottom: 10px solid transparent;
-  margin-top: 1%;
+  border-right: 30px solid var(--orange);
+  border-bottom: 15px solid transparent;
 }
 
 .triangle-right {
   width: 0;
   height: 0;
   border-top: 15px solid transparent;
-  border-left: 21px solid var(--orange);
-  border-bottom: 10px solid transparent;
-  margin-top: 1%;
-  margin-right: 2%;
+  border-left: 30px solid var(--orange);
+  border-bottom: 15px solid transparent;
+  margin-right: 3%;
 }
 
 .triangle-left-f {
@@ -339,6 +337,21 @@ ul li .social-handles svg path:hover {
   margin-top: 25%;
   justify-content: center;
   color: var(--white);
+}
+
+.shape-square {
+  height: 30px;
+  width: 30px;
+  background-color: var(--orange);
+  margin-right: 3%;
+}
+
+.shape-circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 3%;
+  background-color: var(--orange);
 }
 
 .ab.heading {
