@@ -14,13 +14,19 @@
   --light-black: #3e3c3c;
   --social-icon-color: #cfcfcf;
   --inter: inter, sans-serif;
-  --rgb: ;
 }
 
 * {
   margin: 0;
   padding: 0;
   font-family: var(--primary-font-family);
+}
+
+.stroke {
+  border: 1px solid;
+  border-color: #1c1a19;
+  opacity: 0.5;
+  margin: 0% 16%;
 }
 
 .mobile-first-setup {
@@ -119,13 +125,6 @@ ul li .social-handles svg path:hover {
   width: 88%;
 }
 
-.stroke {
-  border: 1px solid;
-  border-color: #1c1a19;
-  opacity: 0.5;
-  margin: 0% 16%;
-}
-
 .my-recent-work {
   background-color: var(--white);
 }
@@ -169,12 +168,12 @@ ul li .social-handles svg path:hover {
 }
 
 .knowledge-btn {
-  border: none;
-  color: var(--white);
-  font-size: 18px;
-  padding: 4%;
   background-color: rgb(255 255 255 / 28%);
   font-family: var(--inter);
+  border: none;
+  color: var(--white);
+  padding: 4%;
+  font-size: 18px;
 }
 
 .knowledge-list {
@@ -221,8 +220,7 @@ ul li .social-handles svg path:hover {
   font-size: 22px;
   text-align: center;
   margin-top: 5%;
-  visibility: hidden;
-  position: absolute;
+  position: relative;
   bottom: 0;
   right: 0;
   left: 0;
